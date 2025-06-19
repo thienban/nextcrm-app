@@ -1,5 +1,5 @@
 "use client";
-import { useCompletion } from "ai/react";
+import { useCompletion } from "@ai-sdk/react";
 
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";

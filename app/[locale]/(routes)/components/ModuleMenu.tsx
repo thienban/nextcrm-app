@@ -45,7 +45,7 @@ const ModuleMenu = ({ modules, dict, build }: Props) => {
         <div className="flex gap-x-4 items-center">
           <div
             className={`cursor-pointer duration-500 border rounded-full px-4 py-2 ${
-              open && "rotate-[360deg]"
+              open && "rotate-360"
             }`}
             onClick={() => setOpen(!open)}
           >

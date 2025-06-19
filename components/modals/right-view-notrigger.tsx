@@ -55,7 +55,7 @@ const RightViewModalNoTrigger = ({
             <Dialog.Description className="text-slate-400 p-3 overflow-auto opacity-75">
               {description}
             </Dialog.Description>
-            <div className="flex-grow border p-5 w-full h-full overflow-auto">
+            <div className="grow border p-5 w-full h-full overflow-auto">
               {children}
             </div>
             <div className="flex justify-end p-3">
