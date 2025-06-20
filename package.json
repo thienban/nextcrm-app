@@ -40,6 +40,7 @@
     "@react-email/components": "^0.1.0",
     "@react-email/markdown": "0.0.15",
     "@react-email/render": "^1.1.2",
+    "@tailwindcss/postcss": "^4.1.10",
     "@tanstack/react-table": "^8.21.3",
     "@tremor/react": "^3.18.7",
     "@uploadthing/react": "^7.3.1",

@@ -114,7 +114,6 @@ export function LoginComponent() {
         password: data.password,
         callbackUrl: process.env.NEXT_PUBLIC_APP_URL,
       });
-      //console.log(status, "status");
       if (status?.error) {
         toast({
           variant: "destructive",
@@ -133,7 +132,7 @@ export function LoginComponent() {
       toast({
         variant: "destructive",
         title: "Error",
-        description: error!,
+        description: error.message || "An error occurred during login",
       });
     } finally {
       setIsLoading(false);

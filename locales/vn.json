@@ -1,0 +1,51 @@
+{
+    "RootLayout": {
+      "title": "NextCRM",
+      "description": "NextCRM là một CRM mã nguồn mở được xây dựng trên NextJS."
+    },
+    "ModuleMenu": {
+      "dashboard": "Trang tổng quan",
+      "crm": {
+        "title": "Doanh số",
+        "accounts": "Công ty",
+        "opportunities": "Cơ hội",
+        "contacts": "Liên hệ",
+        "leads": "Khách hàng tiềm năng",
+        "contracts": "Hợp đồng"
+      },
+      "projects": "Dự án",
+      "emails": "E-mails",
+      "tasks": "Nhiệm vụ",
+      "invoices": "Hóa đơn",
+      "reports": "Báo cáo",
+      "documents": "Tài liệu",
+      "storage": "Lưu trữ",
+      "settings": "Quản trị"
+    },
+    "DashboardPage": {
+      "containerTitle": "Trang tổng quan",
+      "totalRevenue": "Tổng doanh thu",
+      "containerDescription": "Chào mừng đến với NextCRM, ở đây bạn có thể xem tất cả các thông tin quan trọng về doanh nghiệp của mình.",
+      "expectedRevenue": "Doanh thu dự kiến",
+      "activeUsers": "Người dùng hoạt động",
+      "accounts": "Công ty",
+      "opportunities": "Cơ hội",
+      "contacts": "Liên hệ",
+      "leads": "Khách hàng tiềm năng",
+      "projects": "Dự án",
+      "tasks": "Nhiệm vụ",
+      "myTasks": "Nhiệm vụ của tôi",
+      "invoices": "Hóa đơn",
+      "documents": "Tài liệu",
+      "storage": "Lưu trữ"
+    },
+    "RegisterComponent": {
+      "cardTitle": "Tạo tài khoản mới",
+      "cardDescription": "Tạo tài khoản bằng cách đăng nhập với",
+      "label": "Ngôn ngữ",
+      "locale": "{locale, select, de {Tiếng Đức} en {Tiếng Anh} cz {Tiếng Séc} uk {Tiếng Ukraina} other {Không xác định}}"
+    },
+    "CrmModuleMenuComponent": {
+      "menuTitle": "Doanh số"
+    }
+}

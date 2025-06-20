@@ -1,6 +1,9 @@
 import axios, { AxiosResponse } from "axios";
 
 export default async function getGithubRepoStars(): Promise<number> {
+  if(!process.env.NEXT_PUBLIC_GITHUB_TOKEN){
+    return 0;
+  }
   try {
     const response: AxiosResponse<any> = await axios.get(
       process.env.NEXT_PUBLIC_GITHUB_REPO_API ||
