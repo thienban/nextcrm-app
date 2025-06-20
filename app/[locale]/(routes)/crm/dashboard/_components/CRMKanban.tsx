@@ -147,7 +147,7 @@ const CRMKanban = ({
       {/* Dialog */}
 
       <Dialog open={isDialogOpen} onOpenChange={() => setIsDialogOpen(false)}>
-        <DialogContent className="min-w-[1000px] py-10 overflow-auto ">
+        <DialogContent className="min-w-fit py-10 overflow-auto h-5/6">
           <NewOpportunityForm
             users={users}
             accounts={accounts}
